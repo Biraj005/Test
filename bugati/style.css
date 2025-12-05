@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #353543;
+    font-size: 16px;
+ 
+
+
+   font-weight: 500;
+    font-family:sans-serif;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.mesho_logo img{
+    margin-left: 18px;
+    height: 60px;
+}
+.profile{
+    margin-right: 24px;
+}
+.search_box{
+    border-radius: 2px;
+    padding-left: 11px;
+ 
+     border: 1.25px solid #353543;
+     width:30%;
+     height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+   
+}
+.search_box input{
+    text-align: left;
+   
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    height: 21px;
+  
+}
+.download_app{
+    margin-left: 9px;
+    font-size: 16px;
+    height: 81px;
+    width: 40px;
+    /* border-right: 1.25px solid black; */
+   
+}
+.download{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-right: 1.25px solid #353543;
+}
+.partner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    padding-right:  24px;
+    border-right: 1.25px solid #353543;
+}
+.newsroom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-right:  24px;
+    border-right: 1.25px solid #353543;
+
+    position: relative;
+
+
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 72px;
+    padding-right:  24px;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.profile i{
+    display: flex;
+    flex-direction: column;
+}
+
+.download i{
+    height: 20px;
+    width: 14px;
+    padding-right: 30px
+}
+.download span{
+    height: 40px;
+    width: 80px;
+}
+
+
+.options a{
+    color: #353543;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-weight: 540
+
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 52px;
+}
+
+
+/*  */
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    padding-right: 24px;
+}
+
+.profile i, .profile span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding-left: 24px;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+
+
+
+
+.photos{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+.photos img{
+    height: 350px;
+
+}
+.categoris{
+    margin-top: 40px;
+    text-align: center;
+    
+
+}
+h1{
+    font-size: 2.75em;
+    font-weight: 550;
+}
